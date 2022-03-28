@@ -169,8 +169,8 @@
             ctx.moveTo(0, 0);
             ctx.scale(0.75, 0.75);
             ctx.font = "12px 微软雅黑,Verdana"; // 字号肿么没有用? (ˉ(∞)ˉ)
-            ctx.fillText("Come Baby", 23, 10);
-            ctx.restore();
+            ctx.fillText("点我，就说明爱我哟", 23, 10);
+            ctx.restore();come
         },
         clear: function() {
             var ctx = this.tree.ctx, cirle = this.cirle;
